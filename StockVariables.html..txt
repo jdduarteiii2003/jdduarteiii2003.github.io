@@ -1,33 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>HTML5 Template</title>
-  <link rel="stylesheet" href="myStyles.css">
-  <script>
-    /* <![CDATA[ */
-    // Most JavaScript code goes in the head section.
-    /* ]]> */
-   
-
-
+<html>
+  <head>
+    <title>Stock Values</title>
+    <script> 
+      let Apple = 98.63;
+      let HomeDepot = 331.35;
+      let FootLocker = 19.12;
+      let bmw = 49.62;
+      let microsoft = 303.36;
+     </script>
+  </head>
+  <body>
+  <script> 
+      document.write('<pre>');
+      document.writeln("Apple: " + apple);
+      document.writeln("Home Depot: " + homeDepot);
+      document.writeln("FootLocker: " + footlocker);
+      document.writeln("BMW: " + bmw);
+      document.writeln("Microsoft: " + microsoft);
   </script>
-<!--[if lt IE 9]>
-<script src="dist/html5shiv.js"></script>
-<![endif]-->
-</head>
-
-document.write("var FootLocker = 2.6");
-var 
-
-
-
-<body>
-  <!-- Your HTML content goes inside the body tag, below this comment.  -->
-  <script>
-    /* <![CDATA[ */
-    // But JavaScript code can go wherever it needs to be, including in the body.
-    /* ]]> */
-  </script>
-</body>
+  </body>
 </html>
