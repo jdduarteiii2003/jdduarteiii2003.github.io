@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Canvas Sample</title>
+</head>
+
+<body>
+      <canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+    </section>
+  <script>
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext("2d");
+
+    // Red
+
+    ctx.beginPath();
+    ctx.arc(90, 10, 100, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.lineWidth = 1;
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+    // Blue
+
+    ctx.beginPath();
+    ctx.arc(200, 300, 150, 0, 2 * Math.PI);
+    ctx.fillStyle = "blue";
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+    
+    // Orange
+
+    ctx.beginPath();
+    ctx.arc(300,60, 120, 0, 2 * Math.PI);
+    ctx.fillStyle = "orange";
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+    
+    // Green
+
+    ctx.beginPath();
+    ctx.arc(00, 200, 120, 0, 2 * Math.PI);
+    ctx.fillStyle = "green";
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+    
+    // Yellow
+
+    ctx.beginPath();
+    ctx.arc(150, 150, 100, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+  </script>
+
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
